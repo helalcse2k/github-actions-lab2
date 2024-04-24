@@ -1,4 +1,4 @@
-name: Installing Python.
+name: Installing Python
 
 on: [push]
 
@@ -13,5 +13,5 @@ jobs:
     - name: Set up Python
       uses: actions/setup-python@v4
       with:
-        python-version: '${{ matrix.py-version }}''
+        python-version: '${{ matrix.py-version }}'
         
